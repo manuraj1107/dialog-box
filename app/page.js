@@ -53,9 +53,6 @@ const Wallet = () => {
                 <Tabs.Trigger className="px-2 py-2 text-sm w-max h-max flex gap-2 border-gray-100 border-2 font-bold font-mono  rounded" value="buy crypto">
                   <ArrowLeftRight className='h-max w-5' /> Buy Crypto
                 </Tabs.Trigger>
-                <Tabs.Trigger className="px-2 py-2 text-sm w-max h-max flex gap-2 border-gray-100 border-2 font-bold font-mono  rounded" value="swap">
-                <ArrowDownUp className='h-5 w-5  rounded-full ' /> Swap
-                </Tabs.Trigger>
                 </div>
                 
               </Tabs.List>
@@ -67,9 +64,7 @@ const Wallet = () => {
               <Tabs.Content className="tab-content w-full" value="buy crypto">
                 <BuyCrypto />
               </Tabs.Content>
-              <Tabs.Content className="tab-content" value="swap">
-                <p>Swap functionality coming soon...</p>
-              </Tabs.Content>
+              
             </Tabs.Root>
             </div>
           </div>
